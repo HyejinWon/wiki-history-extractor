@@ -19,4 +19,4 @@ python -m wikiextractir.WikiExtractor 'your wiki dump file' -o 'output path'
  
 ---
 ### Dependency
-- WikiExtractor
+- [WikiExtractor](https://github.com/attardi/wikiextractor)
