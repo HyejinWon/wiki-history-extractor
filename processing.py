@@ -78,7 +78,7 @@ def get_diff(args, diff_lines, _doc):
         if len(v_set) == 1 : continue
         median = statistics.median([len(i) for i in v_set])
 
-        # index가 낮을 수록 최근에 수정된 글임
+        # index가 높을 수록 최근에 수정된 글임
         max_v = -999
         min_v = 999
         for item in v_set:
