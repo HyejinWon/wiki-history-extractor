@@ -107,7 +107,7 @@ def get_diff(args, diff_lines, _doc):
                         diff_result = extractdiff(_max_v, _min_v)
                         
                         w.write('-----------------------------------\n')
-                        w.write('R : '+_max_v+'\nW : '+_min_v+'\n'+str(diff_result))
+                        w.write('R : '+_max_v+'\nW : '+_min_v+'\n'+str(diff_result)+'\n')
                         w.write('-----------------------------------\n')
                         
                         #print(diff_result)
