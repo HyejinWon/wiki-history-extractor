@@ -1,5 +1,5 @@
 # wiki-history-extractor
-This extract ko-wiki history data from XML file.
+Extract ko-wiki history data from XML file.
 Only support Korean Language.
 
 ---
